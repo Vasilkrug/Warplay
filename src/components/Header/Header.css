@@ -1,0 +1,13 @@
+.header_nav_list {
+    display: flex;
+    align-items: center;
+    gap: 47px;
+    width: 100%;
+    font-family: 'Aire-Exterior',sans-serif;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: 'Pulsar',sans-serif;
+}
