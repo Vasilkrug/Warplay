@@ -3,17 +3,17 @@ import "./Header.css"
 const Header = () => {
     return (
         <header>
-         <section>
+         <section className="header_section">
+             <div className="logo">
+                 <div className="logo_img">
+                     <img src="/img/icons/blue-logo.png" alt=""/>
+                 </div>
+                 <div className="logo_text">
+                     <span><span>WARPLAY.CLOUD</span></span>
+                 </div>
+             </div>
              <nav className="header_nav">
                  <ul className="header_nav_list">
-                     <li className="logo">
-                         <div className="logo_img">
-                             <img src="img/icons/blue-logo.png" alt=""/>
-                         </div>
-                         <div className="logo_text">
-                             <span><span>WARPLAY.CLOUD</span></span>
-                         </div>
-                     </li>
                      <li><a href="">Главная</a></li>
                      <li><a href="">Сервера</a></li>
                      <li><a href="">Скачать</a></li>
