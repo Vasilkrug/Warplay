@@ -7,24 +7,4 @@ header {
     justify-content: space-evenly;
     padding-top: 47px;
 }
-.header_nav_list {
-    display: flex;
-    align-items: center;
-    gap: 47px;
-    width: 100%;
-    font-weight: 300;
-    font-size: 16px;
-    line-height: 180%;
-    color: #FFFFFF
-}
-.logo {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    font-family: 'Pulsar',sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 23px;
-    color: #57D6FF;
-}
+

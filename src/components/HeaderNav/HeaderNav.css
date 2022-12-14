@@ -1,0 +1,10 @@
+.header_nav_list {
+    display: flex;
+    align-items: center;
+    gap: 47px;
+    width: 100%;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 180%;
+    color: #FFFFFF
+}
