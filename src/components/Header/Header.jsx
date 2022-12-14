@@ -6,16 +6,16 @@ const Header = () => {
          <section className="header_section">
              <div className="logo">
                  <div className="logo_img">
-                     <img src="/img/icons/blue-logo.png" alt=""/>
+                     <img src={require('../../assets/img/icons/blue-logo.png')} alt=""/>
                  </div>
                  <div className="logo_text">
-                     <span><span>WARPLAY.CLOUD</span></span>
+                     <span>WARPLAY.CLOUD</span>
                  </div>
              </div>
              <nav className="header_nav">
                  <ul className="header_nav_list">
                      <li><a href="">Главная</a></li>
-                     <li><a href="">Сервера</a></li>
+                     <li><a href="">Помощь</a></li>
                      <li><a href="">Скачать</a></li>
                      <li><a href="">Открыть в браузере</a></li>
                      <li><a href="">Цены</a></li>

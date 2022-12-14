@@ -1,35 +1,31 @@
 import React from 'react';
 import {Autoplay} from 'swiper';
-import {Swiper,SwiperSlide} from 'swiper/react';
+import {Swiper, SwiperSlide} from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/effect-fade';
 import 'swiper/css/autoplay';
 import './Slider.css'
+import Slide from "../Slide/Slide";
 
-const Slider = () => {
+const Slider = ({sliderImages}) => {
+
     return (
         <section className="slider">
             <Swiper
-            modules={[Autoplay]}
-            autoplay={true}
-            speed={800}
-            slidesPerView={1}
-            loop
-            className='my_swiper'
+                modules={[Autoplay]}
+                autoplay={true}
+                speed={800}
+                slidesPerView={1}
+                loop
+                className='my_swiper'
+                spaceBetween={50}
             >
-                <SwiperSlide className="swiper_slide">
-                    <img src="/img/slides/god.png" alt=""/>
-                </SwiperSlide>
-                <SwiperSlide className="swiper_slide">
-                    <img src="/img/slides/pilot.png" alt=""/>
-                </SwiperSlide>
-                <SwiperSlide className="swiper_slide">
-                    <img src="/img/slides/ship.png" alt=""/>
-                </SwiperSlide>
-                <SwiperSlide className="swiper_slide">
-                    <img src="/img/slides/stalker.png" alt=""/>
-                </SwiperSlide>
+                {sliderImages.map(image => (
+                    <SwiperSlide key={image}>
+                        <Slide image={image}/>
+                    </SwiperSlide>)
+                )}
             </Swiper>
         </section>
     );

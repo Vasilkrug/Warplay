@@ -1,6 +1,7 @@
 import React  from 'react';
 import Header from "./components/Header/Header";
 import Slider from "./components/Slider/Slider";
+import {sliderImages} from "./assets/img/slides/assets";
 
 
 const App = () => {
@@ -8,7 +9,7 @@ const App = () => {
     return (
         <div>
             <Header/>
-            <Slider/>
+            <Slider sliderImages={sliderImages}/>
         </div>
     )
 }

@@ -9,7 +9,7 @@
 @font-face {
     font-family: 'Aire-Exterior';
     src: local('Aire-Exterior'),
-    url("./fonts/aireExterior/AireExterior.ttf") format('ttf');
+    url("./fonts/aireExterior/AireExterior.ttf") format('truetype');
 }
 * {
     margin: 0;
@@ -27,3 +27,4 @@ section {
     max-width: 1440px;
     margin: 0 auto;
 }
+
