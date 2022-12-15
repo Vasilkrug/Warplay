@@ -1,10 +1,39 @@
-.header_nav_list {
+.header_nav {
     display: flex;
     align-items: center;
     gap: 47px;
-    width: 100%;
     font-weight: 300;
     font-size: 16px;
     line-height: 180%;
-    color: #FFFFFF
+    color: #FFFFFF;
+    transition: 1s;
+}
+
+
+@media (max-width: 776px) {
+    .header_nav {
+        flex-direction: column;
+    }
+    .header_nav, .header_nav_active {
+        position: absolute;
+        transition: 0.5s;
+        display: flex;
+        flex-direction: column;
+        top: 70px;
+        z-index: 2;
+        left: 0;
+        width: 100%;
+        background-color: #141C24;
+        border-radius: 20px;
+        height: 100vh;
+    }
+    .header_nav {
+        transform-origin: top center;
+        transform: translate(150%, 0);
+    }
+
+    .header_nav_active {
+        transform-origin: top center;
+        transform: translate(0%, 0%);
+    }
 }

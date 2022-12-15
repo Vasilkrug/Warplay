@@ -21,6 +21,7 @@ body {
     background-color: #141C24;
     color: #FFFFFF;
     font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
 }
 
 section {

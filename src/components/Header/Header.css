@@ -4,7 +4,52 @@ header {
 .header_section {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
-    padding-top: 47px;
+    justify-content: space-between;
+    position: relative;
+    width: 100%;
+    padding: 0 20px;
+    margin-top: 20px;
+}
+@media (max-width: 376px) {
+    .header_section {
+        display: flex;
+        align-items: baseline;
+    }
 }
 
+@media (max-width: 776px) {
+    .header_section {
+        display: flex;
+        align-items: baseline;
+    }
+    .burger-btn {
+        display: block;
+        position: relative;
+        width: 40px;
+        height: 40px;
+        opacity: 0.3;
+        cursor: pointer;
+    }
+    .burger-btn span:after,.burger-btn span:before {
+        content: "";
+        position: absolute;
+        width: 30px;
+        height: 3px;
+        bottom: 50%;
+        background-color: #57D6FF;
+        transition: 0.5s;
+    }
+    .burger-btn span:before {
+        transform: translateY(10px);
+    }
+    .burger-btn-active span:after {
+        transition: 0.5s;
+        bottom: 13px;
+        transform: rotate(-35deg);
+    }
+    .burger-btn-active span:before {
+        transition: 0.5s;
+        bottom: 13px;
+        transform: rotate(35deg);
+    }
+}
