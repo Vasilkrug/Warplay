@@ -15,4 +15,9 @@ export const icons = [
         title:'Начните играть',
         img: require('./arcade.png')
     },
+];
+export const footerIcons = [
+    require('./vk.png'),
+    require('./discord.png'),
+    require('./youtube.png'),
 ]

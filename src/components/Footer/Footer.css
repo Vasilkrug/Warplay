@@ -2,30 +2,31 @@
     background-color: #171717;
     padding: 70px 20px;
 }
+
 .footer_section {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
+@media (max-width: 927px) {
+    .footer_section {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
 .footer_desc {
-    display: flex;
-    align-items: center;
-    gap: 30px;
-    font-family: 'Pulsar',sans-serif;
+    font-family: 'Pulsar', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
     line-height: 11px;
     color: #ECECEC;
 }
+
 .footer_nav {
-    display: flex;
-    align-items: center;
-    gap: 30px;
     font-weight: 300;
     font-size: 18px;
-}
-.footer_icons_links {
-    display: flex;
-    gap: 15px;
+    font-family: 'Aire-Exterior', sans-serif;
 }

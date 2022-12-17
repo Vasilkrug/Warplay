@@ -1,7 +1,8 @@
 .my_title span {
-    display: inline-block;
+    display: block;
+    width: max-content;
     position: relative;
-    font-family: 'Aire-Exterior',sans-serif;
+    font-family: 'Aire-Exterior', sans-serif;
     font-style: normal;
     font-weight: 300;
     font-size: 20px;
@@ -17,4 +18,10 @@
     background-color: #57D6FF;
     top: 50%;
     left: -90px;
+}
+
+@media (max-width: 776px) {
+    .my_title span {
+        margin: 0 auto;
+    }
 }

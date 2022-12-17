@@ -1,7 +1,7 @@
 import React from 'react';
-import './Link.css';
+import './MyLink.css';
 
-const Link = ({text}) => {
+const MyLink = ({text}) => {
     return (
         <div className="my_link">
             <a href="">{text}</a>
@@ -9,4 +9,4 @@ const Link = ({text}) => {
     );
 };
 
-export default Link;
+export default MyLink;

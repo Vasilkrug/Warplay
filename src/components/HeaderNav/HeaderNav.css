@@ -10,7 +10,6 @@
     transition: 1s;
 }
 
-
 @media (max-width: 776px) {
     .header_nav {
         flex-direction: column;

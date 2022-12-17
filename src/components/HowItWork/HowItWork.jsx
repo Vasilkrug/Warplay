@@ -1,6 +1,6 @@
 import React from 'react';
 import './HowItWork.css';
-import Link from "../../UI/Link/Link";
+import MyLink from "../../UI/MyLink/MyLink";
 import Title from "../../UI/Title/Title";
 
 const HowItWork = () => {
@@ -19,7 +19,7 @@ const HowItWork = () => {
                     от 15 мбит/с
                     на всех операционых системах
                     Windows 7, 8, 10 MacOS и Linux .</p>
-                <Link text='Загрузить'/>
+                <MyLink text='Загрузить'/>
             </div>
         </section>
     );

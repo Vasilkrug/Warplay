@@ -1,7 +1,7 @@
 import React from 'react';
 import './StartPlayingDescription.css';
 import Title from "../../UI/Title/Title";
-import Link from "../../UI/Link/Link";
+import MyLink from "../../UI/MyLink/MyLink";
 import IconsList from "../IconsList/IconsList";
 
 const StartPlayingDescription = () => {
@@ -10,7 +10,7 @@ const StartPlayingDescription = () => {
             <Title text="Быстрый старт"/>
             <h2>Начни играть</h2>
             <IconsList/>
-            <Link text='Начать'/>
+            <MyLink text='Начать'/>
         </section>
     );
 };
