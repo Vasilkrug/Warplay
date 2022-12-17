@@ -1,0 +1,11 @@
+.icons_list {
+    display: flex;
+    gap: 70px;
+    margin-bottom: 70px;
+}
+
+@media (max-width: 860px) {
+    .icons_list {
+        flex-direction: column;
+    }
+}
