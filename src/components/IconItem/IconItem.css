@@ -1,0 +1,14 @@
+.icon_item {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.icon_item img {
+    display: block;
+    margin: 0 auto;
+}
+.icon_item span {
+    display: block;
+    text-align: center;
+    font-weight: 300;
+}

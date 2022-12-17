@@ -19,9 +19,10 @@
 
 body {
     background-color: #141C24;
-    color: #FFFFFF;
+    color: #F1F1F1;
     font-family: 'Roboto', sans-serif;
     overflow-x: hidden;
+    font-size: 21px;
 }
 
 section {
@@ -35,6 +36,5 @@ h2 {
     font-size: 39px;
     line-height: 39px;
     color: #FFFFFF;
-
 }
 

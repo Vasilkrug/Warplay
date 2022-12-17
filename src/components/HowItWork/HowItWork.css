@@ -6,6 +6,7 @@
     margin-bottom: 90px;
     padding: 0 20px;
 }
+
 .how_it_work_img {
     height: inherit;
     flex-basis: 680px;
@@ -22,6 +23,7 @@
     .how_it_work_desc p:nth-of-type(1):after {
         display: none;
     }
+
 }
 
 

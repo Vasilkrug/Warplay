@@ -8,6 +8,11 @@
     line-height: 19px;
     color: #00C5FF !important;
 }
+@media (max-width: 776px) {
+    .my_link {
+        margin: 0 auto;
+    }
+}
 .my_link a:after {
     position: absolute;
     content: '';
