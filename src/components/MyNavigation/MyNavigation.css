@@ -1,0 +1,10 @@
+.flex_nav {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+@media (max-width: 444px) {
+    [class~='column'] {
+        flex-direction: column;
+    }
+}
