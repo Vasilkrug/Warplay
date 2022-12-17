@@ -1,10 +1,10 @@
 .my_title span {
     display: inline-block;
     position: relative;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Aire-Exterior',sans-serif;
     font-style: normal;
     font-weight: 300;
-    font-size: 16px;
+    font-size: 20px;
     line-height: 180%;
     color: #57D6FF;
 }

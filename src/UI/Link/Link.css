@@ -3,7 +3,8 @@
     width: max-content;
 }
 .my_link a {
-    font-size: 16px;
+    font-family: 'Aire-Exterior',sans-serif;
+    font-size: 20px;
     font-weight: 500;
     line-height: 19px;
     color: #00C5FF !important;
