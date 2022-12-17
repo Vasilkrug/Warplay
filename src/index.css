@@ -28,4 +28,13 @@ section {
     max-width: 1440px;
     margin: 0 auto;
 }
+h2 {
+    font-family: 'Aire-Exterior',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 39px;
+    line-height: 39px;
+    color: #FFFFFF;
+
+}
 
