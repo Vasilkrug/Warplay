@@ -5,7 +5,9 @@
     gap: 90px;
     padding: 0 20px;
 }
-
+.download_title a {
+    align-self: end;
+}
 .operations_systems {
     gap: 90px;
     flex-wrap: wrap;
