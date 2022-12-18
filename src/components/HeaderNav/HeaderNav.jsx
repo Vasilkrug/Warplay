@@ -11,7 +11,7 @@ const HeaderNav = () => {
             <Link to="/download">Скачать</Link>
             <a href="">Открыть в браузере</a>
             <a href="">Цены</a>
-            <a href="">Контакты</a>
+            <Link to="/contacts">Контакты</Link>
             <a href="">Корзина</a>
             <a href="">Войти</a>
             <IconsLinksList/>
