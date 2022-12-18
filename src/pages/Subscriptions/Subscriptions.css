@@ -1,0 +1,17 @@
+.subscriptions {
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+.subscriptions_title a {
+    align-self: end;
+}
+
+.price_cards_list {
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+    flex-wrap: wrap;
+}

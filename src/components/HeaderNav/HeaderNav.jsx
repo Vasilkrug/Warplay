@@ -10,7 +10,7 @@ const HeaderNav = () => {
             <a href="">Магазин игр</a>
             <Link to="/download">Скачать</Link>
             <a href="">Открыть в браузере</a>
-            <a href="">Цены</a>
+            <Link to="subscriptions">Цены</Link>
             <Link to="/contacts">Контакты</Link>
             <a href="">Корзина</a>
             <a href="">Войти</a>
