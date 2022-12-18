@@ -1,0 +1,12 @@
+.servers_location {
+    flex-direction: column;
+    margin-bottom: 50px;
+    padding: 0 20px;
+}
+
+.servers_map {
+    width: 100%;
+    height: 420px;
+    background: url("../../assets/img/map.png") no-repeat center center;
+    background-size: contain;
+}
