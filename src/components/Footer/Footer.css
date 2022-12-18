@@ -30,7 +30,7 @@
 }
 
 @media (max-width: 437px) {
-    .footer_nav {
+    .footer_nav, .footer_desc {
         flex-direction: column;
     }
 }

@@ -1,24 +1,17 @@
-import React  from 'react';
-import Header from "./components/Header/Header";
-import Slider from "./components/Slider/Slider";
-import {sliderImages} from "./assets/img/slides/assets";
-import HowItWork from "./components/HowItWork/HowItWork";
-import StartPlayingDescription from "./components/StartPlayingDescription/StartPlayingDescription";
-import Footer from "./components/Footer/Footer";
-import Locations from "./components/Locations/Locations";
-
+import React from 'react';
+import {BrowserRouter as Router, Route, Routes} from "react-router-dom";
+import Home from "./pages/Home/Home";
+import Download from "./pages/Download/Download";
 
 const App = () => {
 
     return (
-        <div>
-            <Header/>
-            <Slider sliderImages={sliderImages}/>
-            <HowItWork/>
-            <StartPlayingDescription/>
-            <Locations/>
-            <Footer/>
-        </div>
+        <Router>
+            <Routes>
+                <Route path="/" element={<Home/>}/>
+                <Route path="/download" element={<Download/>}/>
+            </Routes>
+        </Router>
     )
 }
 

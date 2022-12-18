@@ -1,0 +1,19 @@
+.download {
+    height: 100vh;
+    justify-content: center;
+    flex-direction: column;
+    gap: 90px;
+    padding: 0 20px;
+}
+
+.operations_systems {
+    gap: 90px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+@media (max-width: 508px) {
+    .download h2 {
+        text-align: center;
+    }
+}
