@@ -5,7 +5,7 @@ const Slide = ({image}) => {
 
     return (
         <>
-            <div className='my_slide' style={{backgroundImage: `url(${image})`}}>
+            <div className='my_slide flex' style={{backgroundImage: `url(${image})`}}>
                 <div className="slide_desc">
                     <span>Сервис облачного гейминга</span>
                     <h1>Преврати свое устройство в игровое </h1>

@@ -3,7 +3,7 @@ import './Logo.css';
 
 const Logo = () => {
     return (
-        <div className="logo">
+        <div className="logo flex">
             <div className="logo_img">
                 <img src={require('../../assets/img/icons/blue-logo.png')} alt=""/>
             </div>

@@ -1,34 +1,36 @@
 .swiper-slide {
     height: 80vh;
 }
+
 .my_slide {
     width: 100%;
     height: inherit;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    display: flex;
     justify-content: center;
-    align-items: center;
     flex-direction: column;
     gap: 100px;
     border-radius: 20px;
 }
+
 .slide_desc {
     max-width: 632px;
     text-align: center;
     margin-top: 100px;
 }
+
 .slide_desc span {
     display: block;
-    font-family: 'Roboto',sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
 }
+
 h1 {
-    font-family: 'Aire-Exterior',sans-serif;
+    font-family: 'Aire-Exterior', sans-serif;
     font-weight: 400;
     font-size: 48px;
     line-height: 48px;
@@ -37,11 +39,11 @@ h1 {
 .upgrade_btn {
     width: 251px;
     height: 61px;
-    font-family: 'Aire-Exterior',sans-serif;
+    font-family: 'Aire-Exterior', sans-serif;
     font-weight: 400;
     font-size: 24px;
     line-height: 24px;
-    background:linear-gradient(-135deg, transparent 15px, #FFFFFF 0);
+    background: linear-gradient(-135deg, transparent 15px, #FFFFFF 0);
     cursor: pointer;
     transition: 0.4s;
 }

@@ -37,4 +37,12 @@ h2 {
     line-height: 39px;
     color: #FFFFFF;
 }
+.flex {
+    display: flex;
+    align-items: center;
+}
+.gap30 {
+    gap: 30px;
+}
+
 

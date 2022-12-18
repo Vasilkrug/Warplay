@@ -4,9 +4,7 @@
 }
 
 .footer_section {
-    display: flex;
     justify-content: space-between;
-    align-items: center;
 }
 
 @media (max-width: 927px) {
@@ -29,4 +27,10 @@
     font-weight: 300;
     font-size: 18px;
     font-family: 'Aire-Exterior', sans-serif;
+}
+
+@media (max-width: 437px) {
+    .footer_nav {
+        flex-direction: column;
+    }
 }

@@ -1,7 +1,7 @@
 import React from 'react';
-import './HowItWork.css';
 import MyLink from "../../UI/MyLink/MyLink";
 import Title from "../../UI/Title/Title";
+import './HowItWork.css';
 
 const HowItWork = () => {
     return (
@@ -14,7 +14,7 @@ const HowItWork = () => {
                 <p>Наши сервера запускают игру, и передают
                     вам картинку, которой вы можете управлять
                     в реальном времени!</p>
-                <p>Приложение  запустится на ПК с процессором
+                <p>Приложение запустится на ПК с процессором
                     от 1.5 GHz , от 1 Gb RAM и доступом в интернет
                     от 15 мбит/с
                     на всех операционых системах

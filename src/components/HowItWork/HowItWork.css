@@ -11,21 +11,23 @@
     height: inherit;
     flex-basis: 680px;
     background: url("../../assets/img/ImageServerHost.png") no-repeat center;
-    background-size:contain;
+    background-size: contain;
 }
+
 @media (max-width: 776px) {
     .how_it_work {
         flex-direction: column;
     }
+
     .how_it_work_img {
         flex-basis: 400px;
     }
+
     .how_it_work_desc p:nth-of-type(1):after {
         display: none;
     }
 
 }
-
 
 
 .how_it_work_desc {
@@ -39,7 +41,7 @@
 .how_it_work_desc {
     flex-basis: 480px;
     flex-grow: 0;
-    font-family: 'Roboto',sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 300;
     font-size: 21px;
@@ -47,12 +49,14 @@
     color: #ABABAB;
     position: relative;
 }
+
 .how_it_work_desc p:nth-of-type(1) {
     display: block;
     position: relative;
 }
+
 .how_it_work_desc p:nth-of-type(1):after {
-    content:'';
+    content: '';
     position: absolute;
     width: 271px;
     height: 1px;

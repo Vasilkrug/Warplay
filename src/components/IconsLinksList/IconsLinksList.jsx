@@ -1,15 +1,14 @@
 import React from 'react';
-import MyNavigation from "../MyNavigation/MyNavigation";
 import IconsLinksItem from "../IconsLinksItem/IconsLinksItem";
 import {footerIcons} from "../../assets/img/icons/assets";
 
 const IconsLinksList = () => {
     return (
-        <MyNavigation myClass="footer_icons_links">
+        <div className="icons_links flex gap30">
             {footerIcons.map(item => {
                 return <IconsLinksItem path={item}/>
             })}
-        </MyNavigation>
+        </div>
     );
 };
 

@@ -5,8 +5,8 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/effect-fade';
 import 'swiper/css/autoplay';
-import './Slider.css'
 import Slide from "../Slide/Slide";
+import './Slider.css';
 
 const Slider = ({sliderImages}) => {
 
