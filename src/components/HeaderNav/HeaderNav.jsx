@@ -7,10 +7,9 @@ const HeaderNav = () => {
     return (
         <nav className="header_nav flex">
             <Link to="/download">Скачать</Link>
-            <a href="">Открыть в браузере</a>
             <Link to="subscriptions">Цены</Link>
             <Link to="/contacts">Контакты</Link>
-            <a href="">Войти</a>
+            <Link to="/authorization">Войти</Link>
             <IconsLinksList/>
         </nav>
     );

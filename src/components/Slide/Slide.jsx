@@ -1,5 +1,6 @@
 import React from 'react';
 import './Slide.css'
+import MyButton from "../../UI/MyButton/MyButton";
 
 const Slide = ({image}) => {
 
@@ -11,7 +12,7 @@ const Slide = ({image}) => {
                     <h1>Преврати свое устройство в игровое </h1>
                 </div>
                 <div className="slide_btn_block">
-                    <button className="upgrade_btn">Upgrade</button>
+                    <MyButton text='Upgrade'/>
                 </div>
             </div>
         </>

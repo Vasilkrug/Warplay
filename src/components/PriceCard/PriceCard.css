@@ -17,6 +17,7 @@
     font-size: 21px;
     line-height: 150%;
     color: #ABABAB;
+    align-self: flex-start;
 }
 .sub_item_btn button {
     width: 321px;

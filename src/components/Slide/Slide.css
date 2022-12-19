@@ -36,14 +36,3 @@ h1 {
     line-height: 48px;
 }
 
-.upgrade_btn {
-    width: 251px;
-    height: 61px;
-    font-family: 'Aire-Exterior', sans-serif;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 24px;
-    background: linear-gradient(-135deg, transparent 15px, #FFFFFF 0);
-    cursor: pointer;
-    transition: 0.4s;
-}
