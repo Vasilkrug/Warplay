@@ -1,18 +1,18 @@
 export const icons = [
     {
-        title:'Создайте аккаунт',
+        title: 'Создайте аккаунт',
         img: require('./mail.png')
     },
     {
-        title:'Cкачайте модуль',
+        title: 'Cкачайте модуль',
         img: require('./download.png')
     },
     {
-        title:'Выберите тариф',
+        title: 'Выберите тариф',
         img: require('./library.png')
     },
     {
-        title:'Начните играть',
+        title: 'Начните играть',
         img: require('./arcade.png')
     },
 ];

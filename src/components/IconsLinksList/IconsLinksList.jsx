@@ -1,13 +1,12 @@
 import React from 'react';
 import IconsLinksItem from "../IconsLinksItem/IconsLinksItem";
-import {footerIcons} from "../../assets/img/icons/assets";
 
-const IconsLinksList = () => {
+
+const IconsLinksList = ({classNames, icons}) => {
+
     return (
-        <div className="icons_links flex gap30">
-            {footerIcons.map(item => {
-                return <IconsLinksItem path={item}/>
-            })}
+        <div className={classNames}>
+            {icons.map(item => <IconsLinksItem key={item} path={item}/>)}
         </div>
     );
 };

@@ -2,6 +2,7 @@ import React from 'react';
 import IconsLinksList from "../IconsLinksList/IconsLinksList";
 import './HeaderNav.css';
 import {Link} from "react-router-dom";
+import {footerIcons} from "../../assets/img/icons/assets";
 
 const HeaderNav = () => {
     return (
@@ -10,7 +11,7 @@ const HeaderNav = () => {
             <Link to="subscriptions">Цены</Link>
             <Link to="/contacts">Контакты</Link>
             <Link to="/authorization">Войти</Link>
-            <IconsLinksList/>
+            <IconsLinksList icons={footerIcons} classNames="icons_links flex gap30"/>
         </nav>
     );
 };

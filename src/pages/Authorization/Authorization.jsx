@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
-import './Authorization.css';
 import LoginForm from "../../components/LoginForm/LoginForm";
+import './Authorization.css';
 
 const Authorization = () => {
     const [activeButton, setActiveButton] = useState('');

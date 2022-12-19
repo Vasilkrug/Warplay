@@ -1,6 +1,7 @@
 import React from 'react';
 
 const IconsLinksItem = ({path}) => {
+
     return (
         <>
             <a href="">

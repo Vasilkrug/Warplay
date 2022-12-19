@@ -2,6 +2,7 @@ import React from 'react';
 import Logo from "../Logo/Logo";
 import IconsLinksList from "../IconsLinksList/IconsLinksList";
 import './Footer.css';
+import {footerIcons} from "../../assets/img/icons/assets";
 
 const Footer = () => {
     return (
@@ -14,7 +15,7 @@ const Footer = () => {
                 <div className="footer_nav flex gap30">
                     <a href="">Политика конфиденциальности</a>
                     <a href="">Файлы Cookie</a>
-                    <IconsLinksList/>
+                    <IconsLinksList icons={footerIcons} classNames="icons_links flex gap30"/>
                 </div>
             </section>
         </footer>
