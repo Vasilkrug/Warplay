@@ -6,6 +6,7 @@ import HowItWork from "../../components/HowItWork/HowItWork";
 import StartPlayingDescription from "../../components/StartPlayingDescription/StartPlayingDescription";
 import Locations from "../../components/Locations/Locations";
 import Footer from "../../components/Footer/Footer";
+import BrowserPlay from "../../components/BrowserPlay/BrowserPlay";
 
 const Home = () => {
     return (
@@ -14,6 +15,7 @@ const Home = () => {
             <Slider sliderImages={sliderImages}/>
             <HowItWork/>
             <StartPlayingDescription/>
+            <BrowserPlay/>
             <Locations/>
             <Footer/>
         </div>
