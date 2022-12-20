@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b9264146.css",
+    "main.js": "/static/js/main.d69fb67d.js",
+    "static/media/god.png": "/static/media/god.e3a322f9777dd23820ea.png",
+    "static/media/browser.png": "/static/media/browser.df69e45d98635de25039.png",
+    "static/media/pilot.jpg": "/static/media/pilot.aba0841d7fc861ad4c25.jpg",
+    "static/media/ImageServerHost.png": "/static/media/ImageServerHost.0788acc2ed92b4fbe4e4.png",
+    "static/media/map.png": "/static/media/map.164edb19e7e52f0c0fa5.png",
+    "static/media/ship.jpeg": "/static/media/ship.bf0e5d36a978e3f4775e.jpeg",
+    "static/media/stalker.jpg": "/static/media/stalker.a0a0505818c5d7d1aeea.jpg",
+    "static/media/AireExterior.ttf": "/static/media/AireExterior.15b016e35bb0c808bf19.ttf",
+    "static/media/PulsarOriginalRegular.woff2": "/static/media/PulsarOriginalRegular.f55a25ddd3f0c9cb6696.woff2",
+    "index.html": "/index.html",
+    "main.b9264146.css.map": "/static/css/main.b9264146.css.map",
+    "main.d69fb67d.js.map": "/static/js/main.d69fb67d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b9264146.css",
+    "static/js/main.d69fb67d.js"
+  ]
+}
