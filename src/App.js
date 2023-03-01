@@ -7,7 +7,7 @@ import Subscriptions from "./pages/Subscriptions/Subscriptions";
 import Authorization from "./pages/Authorization/Authorization";
 
 const App = () => {
-
+//test
     return (
         <Router>
             <Routes>
