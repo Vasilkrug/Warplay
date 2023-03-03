@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Warplay/static/css/main.7c445783.css",
-    "main.js": "/Warplay/static/js/main.107814cd.js",
+    "main.js": "/Warplay/static/js/main.84dc6b60.js",
     "static/media/god.png": "/Warplay/static/media/god.e3a322f9777dd23820ea.png",
     "static/media/browser.png": "/Warplay/static/media/browser.df69e45d98635de25039.png",
     "static/media/pilot.jpg": "/Warplay/static/media/pilot.aba0841d7fc861ad4c25.jpg",
@@ -13,10 +13,10 @@
     "static/media/PulsarOriginalRegular.woff2": "/Warplay/static/media/PulsarOriginalRegular.f55a25ddd3f0c9cb6696.woff2",
     "index.html": "/Warplay/index.html",
     "main.7c445783.css.map": "/Warplay/static/css/main.7c445783.css.map",
-    "main.107814cd.js.map": "/Warplay/static/js/main.107814cd.js.map"
+    "main.84dc6b60.js.map": "/Warplay/static/js/main.84dc6b60.js.map"
   },
   "entrypoints": [
     "static/css/main.7c445783.css",
-    "static/js/main.107814cd.js"
+    "static/js/main.84dc6b60.js"
   ]
 }
